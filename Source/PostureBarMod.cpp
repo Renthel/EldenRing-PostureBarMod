@@ -202,7 +202,7 @@ bool saveTestOffsetToIni()
     try
     {
         using namespace mINI;
-        INIFile config(dllPath + "mods\\PostureBarModConfig.ini");
+        INIFile config(dllPath + "PostureBarModConfig.ini");
         INIStructure ini;
 
         if (!config.read(ini))
